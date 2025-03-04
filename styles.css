@@ -1,23 +1,50 @@
-.project-card {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegyT Eco Initiatives</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to RegyT Eco Initiatives</h1>
+        <p>Innovative solutions for a greener and sustainable future.</p>
+    </section>
+    
+    <section class="projects">
+        <h2>Our Sustainability Projects</h2>
+        <div class="project-card">
+            <h3>Green Building Initiative</h3>
+            <p>Developing eco-friendly structures using sustainable materials.</p>
+        </div>
+        <div class="project-card">
+            <h3>Waste Reduction Program</h3>
+            <p>Encouraging waste minimization and community recycling projects.</p>
+        </div>
+        <div class="project-card">
+            <h3>Renewable Energy Integration</h3>
+            <p>Implementing solar and wind energy solutions for sustainable power.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 RegyT Eco Initiatives. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
-.project-card:hover {
-    transform: scale(1.05);
-}
-
-.project-card img {
-    width: 100%;
-    height: 200px; /* Set a fixed height */
-    object-fit: cover; /* Ensures the image is cropped nicely */
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
 
 
 
