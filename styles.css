@@ -128,7 +128,40 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* Contact Info Styles */
+.contact-info {
+    margin-bottom: 30px;
+    text-align: center;
+}
 
+.contact-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #45a049;
+}
+
+/* Footer Contact Info */
+footer .contact-info {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+footer .contact-info a {
+    color: white;
+}
+
+footer .contact-info a:hover {
+    color: #4CAF50;
+}
 footer a {
     color: #4CAF50;
     text-decoration: none;
