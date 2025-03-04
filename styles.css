@@ -1,32 +1,81 @@
-/* Fix for Project Cards */
-.project {
-    background: white;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegyT Sustainability Projects</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- FontAwesome -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+            background-color: #222;
+            color: white;
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 40px;
+        }
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+        .project-icon {
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        h2 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
 
-/* Hover effect */
-.project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-}
+    <div class="container">
+        <h1>Our Sustainability Projects</h1>
+        <p>Explore our innovative initiatives for a greener future.</p>
+    </div>
 
-/* Fix for small icons (if using images) */
-.project img {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-    margin-right: 5px;
-}
+    <div class="projects">
+        <div class="project-card">
+            <i class="fas fa-seedling project-icon"></i> <!-- Green Building -->
+            <h2>Green Building Initiative</h2>
+            <p>Developing eco-friendly structures using sustainable materials.</p>
+        </div>
+        <div class="project-card">
+            <i class="fas fa-recycle project-icon"></i> <!-- Waste Reduction -->
+            <h2>Waste Reduction Program</h2>
+            <p>Encouraging waste minimization and community recycling projects.</p>
+        </div>
+        <div class="project-card">
+            <i class="fas fa-bolt project-icon"></i> <!-- Renewable Energy -->
+            <h2>Renewable Energy Integration</h2>
+            <p>Implementing solar and wind energy solutions for sustainable power.</p>
+        </div>
+        <div class="project-card">
+            <i class="fas fa-tint project-icon"></i> <!-- Water Conservation -->
+            <h2>Water Conservation Project</h2>
+            <p>Rainwater harvesting and wastewater treatment for efficient water use.</p>
+        </div>
+    </div>
 
-/* Fix text spacing */
-.project p {
-    font-size: 16px;
-    line-height: 1.5;
-}
+</body>
+</html>
+
 
 
 
