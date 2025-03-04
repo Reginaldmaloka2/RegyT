@@ -75,6 +75,8 @@ nav ul li a.active {
     text-decoration: underline;
     color: #fff; /* Optional: Change color for better visibility */
 }
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
 
 
 
