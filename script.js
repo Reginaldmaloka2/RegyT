@@ -1,8 +1,15 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const form = document.querySelector('form');
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Thank you for your message!');
-        form.reset();
-    });
+// Form Submission Handling
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Basic validation
+    if (name && email && message) {
+        alert('Thank you for contacting us, ' + name + '! We will get back to you soon.');
+        document.getElementById('contact-form').reset();
+    } else {
+        alert('Please fill out all fields.');
+    }
 });
