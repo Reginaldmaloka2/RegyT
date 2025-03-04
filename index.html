@@ -1,55 +1,84 @@
-<link rel="stylesheet" href="styles.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RegyT Sustainability Projects</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="styles.css"> <!-- Link external CSS -->
+    <title>RegyT Sustainability Solutions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="logo">RegyT Sustainability</div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html" class="active">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Projects Section -->
-    <div class="container">
-        <h1>Our Sustainability Projects</h1>
-        <p>Explore our innovative initiatives for a greener future.</p>
-    </div>
-
-    <div class="projects">
-        <div class="project-card">
-            <i class="fas fa-seedling project-icon"></i> <!-- Green Building Icon -->
-            <h2>Green Building Initiative</h2>
-            <p>Developing eco-friendly structures using sustainable materials.</p>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="RegyT Logo">
+            <h1>RegyT Sustainability Solutions</h1>
         </div>
-        <div class="project-card">
-            <i class="fas fa-recycle project-icon"></i> <!-- Waste Reduction Icon -->
-            <h2>Waste Reduction Program</h2>
-            <p>Encouraging waste minimization and community recycling projects.</p>
-        </div>
-        <div class="project-card">
-            <i class="fas fa-bolt project-icon"></i> <!-- Renewable Energy Icon -->
-            <h2>Renewable Energy Integration</h2>
-            <p>Implementing solar and wind energy solutions for sustainable power.</p>
-        </div>
-        <div class="project-card">
-            <i class="fas fa-tint project-icon"></i> <!-- Water Conservation Icon -->
-            <h2>Water Conservation Project</h2>
-            <p>Rainwater harvesting and wastewater treatment for efficient water use.</p>
-        </div>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Empowering Communities Through Sustainable Development</h2>
+            <p>Join us in building a brighter, greener future for Phalaborwa.</p>
+            <a href="#contact" class="cta-button">Get Involved</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>RegyT Sustainability Solutions is dedicated to empowering the Phalaborwa community through sustainable development, education, and economic empowerment. Our mission is to create a thriving, self-sufficient community where everyone has access to education, employment, and sustainable living practices.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Sustainability Projects</h3>
+                <p>Waste management, water conservation, urban farming, and renewable energy solutions.</p>
+            </div>
+            <div class="service-item">
+                <h3>Skills Training</h3>
+                <p>Digital skills, environmental training, and professional development programs.</p>
+            </div>
+            <div class="service-item">
+                <h3>Community Development</h3>
+                <p>Eco-tourism, advocacy training, and subscription-based services.</p>
+            </div>
+            <div class="service-item">
+                <h3>Mental Health Support</h3>
+                <p>Counseling, workshops, and rehabilitation programs for mental health and homelessness.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 RegyT Sustainability Solutions. All rights reserved.</p>
+        <p>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">LinkedIn</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
 
