@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegyT Sustainability Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>RegyT Sustainability Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Welcome to RegyT Sustainability Solutions</h2>
+            <p>We are committed to driving sustainability and community development in South Africa.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 RegyT Sustainability Solutions. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- About Us Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - RegyT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Who We Are</h2>
+            <p>RegyT Sustainability Solutions is dedicated to fostering environmental responsibility and community growth.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 RegyT Sustainability Solutions. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- Services Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - RegyT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>What We Offer</h2>
+            <ul>
+                <li>Sustainability Consulting</li>
+                <li>Environmental Impact Assessments</li>
+                <li>Community Development Projects</li>
+                <li>ESG Strategy Implementation</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 RegyT Sustainability Solutions. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- Projects Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - RegyT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Our Impact</h2>
+            <ul>
+                <li>Community Water Purification Project</li>
+                <li>Renewable Energy Initiatives</li>
+                <li>Waste Management and Recycling Programs</li>
+                <li>Educational Outreach on Sustainability</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 RegyT Sustainability Solutions. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- Contact Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - RegyT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>Email: contact@regyt.com</p>
+            <p>Phone: +27 XXX XXX XXXX</p>
+            <p>Follow us on social media!</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 RegyT Sustainability Solutions. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
