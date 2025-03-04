@@ -1,4 +1,72 @@
-<link rel="stylesheet" href="styles.css">
+/* Reset default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 50px;
+    background-color: #222;
+    color: white;
+}
+
+/* Project Cards */
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+}
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+.project-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+h2 {
+    color: #007bff;
+}
 
 
 
